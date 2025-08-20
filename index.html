@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentir & Nutrir - Uma Nova Experiência</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="nav-bar container">
+            <a href="index.html" class="logo">Sentir & Nutrir</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#products">Nossas Experiências</a></li>
+                <li><a href="https://wa.me/5547997707872" target="_blank">WhatsApp</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="carrinho.html" style="color: inherit; text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16"><path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/></svg>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+            <button class="mobile-menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content fade-in">
+                <h1>Experiência sensorial em<br>forma de presente.</h1>
+                <p>Transformamos presentes em momentos únicos, unindo sabor, saúde e afeto em cada detalhe.</p>
+                <a href="#about" class="btn">Descubra como</a>
+            </div>
+            <div class="scroll-down">↓</div>
+        </section>
+
+        <section id="about" class="content-section container">
+            <div class="split-section">
+                <div class="text-content fade-in">
+                    <h2>Mais do que um presente,<br>um <span class="highlight">convite especial.</span></h2>
+                    <p>Na correria do dia a dia, é comum esquecermos de demonstrar cuidado e carinho com quem mais amamos. A Box Sentir & Nutrir nasceu para resgatar esses gestos, transformando o ato de presentear em uma experiência sensorial única: aromas que acalmam, texturas que confortam e sabores que despertam memórias afetivas.</p>
+                    <p>O que começou como um gesto simples hoje se tornou um negócio de família. Acreditamos que presentear não é apenas entregar algo bonito, mas proporcionar momentos de conexão, amor e lembrança.</p>
+                </div>
+                <div class="image-content fade-in">
+                    <img src="imagens/inicio.png" alt="Cesta de café da manhã lindamente arrumada">
+                </div>
+            </div>
+        </section>
+        
+        <section id="products" class="content-section">
+            <div class="container">
+                <h2 class="senses-title fade-in">Nossas Experiências Sensoriais</h2>
+                <div class="product-grid">
+
+                    <article class="product-card fade-in">
+                        <figure class="product-image-container">
+                            <img src="imagens/cafe-da-manha.png" alt="Cesta de café da manhã artesanal">
+                        </figure>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h3>Cesta Amanhecer Sereno</h3>
+                                <p>Um convite para começar o dia com calma e sabor.</p>
+                            </div>
+                            <div class="price">R$ 195,00</div>
+                            <a href="#" class="btn add-to-cart" data-id="1" data-name="Cesta Amanhecer Sereno" data-price="195.00" data-image="imagens/cafe-da-manha.png">Adicionar ao Carrinho</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card fade-in">
+                        <figure class="product-image-container">
+                            <img src="imagens/vinho.png" alt="Kit de vinhos e queijos finos">
+                        </figure>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h3>Kit Vinho & Poesia</h3>
+                                <p>Uma seleção de queijos especiais, vinho e castanhas.</p>
+                            </div>
+                            <div class="price">R$ 265,00</div>
+                            <a href="#" class="btn add-to-cart" data-id="2" data-name="Kit Vinho & Poesia" data-price="265.00" data-image="imagens/vinho.png">Adicionar ao Carrinho</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card fade-in">
+                        <figure class="product-image-container">
+                            <img src="imagens/cha.png" alt="Caixa com chás e itens de bem-estar">
+                        </figure>
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h3>Box Pausa Restauradora</h3>
+                                <p>Um ritual de autocuidado com chás e biscoitos integrais.</p>
+                            </div>
+                            <div class="price">R$ 160,00</div>
+                            <a href="#" class="btn add-to-cart" data-id="3" data-name="Box Pausa Restauradora" data-price="160.00" data-image="imagens/cha.png">Adicionar ao Carrinho</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-column">
+                <a href="index.html" class="footer-logo">Sentir & Nutrir</a>
+                <p class="footer-text">Mais do que um presente, um convite para celebrar momentos e vínculos que realmente importam.</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Navegação</h3>
+                <ul class="footer-links">
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#products">Nossas Experiências</a></li>
+                    <li><a href="https://wa.me/5547997707872" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Contato</h3>
+                <ul class="footer-links contact-info">
+                    <li><span>Curitiba, PR</span></li>
+                    <li><span>contato@sentirenutrir.com</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Sentir & Nutrir. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="toast-container"></div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
